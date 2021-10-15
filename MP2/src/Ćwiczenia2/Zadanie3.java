@@ -6,7 +6,7 @@ public class Zadanie3 {
     public static void main(String[] args) {
         Random randomPalacz = new Random();
         int randomNumberPalacz = randomPalacz.nextInt(100);
-        System.out.println("Wygenerowana liczba: " + randomNumberPalacz);
+        System.out.println("Genereowanie losowej liczby w przedziale od 1 do 100...\nWygenerowana liczba: " + randomNumberPalacz);
 
         if (randomNumberPalacz % 2 == 0)
             System.out.println("Liczba jest parzysta!");
